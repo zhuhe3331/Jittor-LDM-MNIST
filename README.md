@@ -73,24 +73,23 @@ python ./script/eval_DDPM_MNIST.py
 #### Loss曲线对比
 
 **DDPM**：
-
-![DDPM_loss](results/loss_ddpm.png)
+![DDPM_loss](./results/loss_ddpm.png)
 
 **DDPM-Conditonal**:
 
-![DDPM_cond_loss](results/loss_ddpm_cond.png)
+![DDPM_cond_loss](./results/loss_ddpm_cond.png)
 
 **VAE**:
 
-![VAE_loss](results/loss_VAE.png)
+![VAE_loss](./results/loss_VAE.png)
 
 **LDM**:
 
-![LDM_loss](results\loss_ldm.png)
+![LDM_loss](./results/loss_ldm.png)
 
 **LDM-Conditional**:
 
-![LDM_cond_loss](results\loss_ldm_cond.png)
+![LDM_cond_loss](./results/loss_ldm_cond.png)
 
 #### 生成结果对比
 
@@ -98,51 +97,51 @@ python ./script/eval_DDPM_MNIST.py
 
 + Jittor
 
-![ddpm_jittor](jittor_version\results\mnist_ddpm_1746265160.169301.png)
+![ddpm_jittor](./jittor_version/results/mnist_ddpm_1746265160.169301.png)
 
 + PyTorch
 
-![ddpm_jittor](pytorch_version\results\mnist_ddpm_1746264647.3923814.png)
+![ddpm_jittor](./pytorch_version/results/mnist_ddpm_1746264647.3923814.png)
 
 **DDPM-Conditional**：
 
 + Jittor
 
-![ddpm_cond_jittor](.\jittor_version\results\mnist_ddpm_cond_1746265200.9708383.png)
+![ddpm_cond_jittor](./jittor_version/results/mnist_ddpm_cond_1746265200.9708383.png)
 
 + PyTorch
 
-![ddpm_cond_jittor](.\pytorch_version\results\mnist_ddpm_cond_1746264662.2544203.png)
+![ddpm_cond_jittor](./pytorch_version/results/mnist_ddpm_cond_1746264662.2544203.png)
 
 **VAE**：
 
 + Jittor
 
-![vae_jittor](.\jittor_version\results\mnist_VAE_1746265317.1330144.png)
+![vae_jittor](./jittor_version/results/mnist_VAE_1746265317.1330144.png)
 
 + PyTorch
 
-![vae_jittor](.\pytorch_version\results\mnist_VAE_1746264726.71298.png)
+![vae_jittor](./pytorch_version/results/mnist_VAE_1746264726.71298.png)
 
 **LDM**：
 
 + Jittor
 
-![ldm_jittor](.\jittor_version\results\mnist_ldm_1746265365.8868375.png)
+![ldm_jittor](./jittor_version/results/mnist_ldm_1746265365.8868375.png)
 
 + PyTorch
 
-![ldm_jittor](.\pytorch_version\results\mnist_ldm_1746264769.0900123.png)
+![ldm_jittor](./pytorch_version/results/mnist_ldm_1746264769.0900123.png)
 
 **LDM-Conditional**：
 
 + Jittor
 
-![ldm_cond_jittor](.\jittor_version\results\mnist_cond_ldm_1746265422.801435.png)
+![ldm_cond_jittor](./jittor_version/results/mnist_cond_ldm_1746265422.801435.png)
 
 + PyTorch
 
-![ldm_cond_jittor](.\pytorch_version\results\mnist_ldm_cond1746265690.3888752.png)
+![ldm_cond_jittor](./pytorch_version/results/mnist_ldm_cond1746265690.3888752.png)
 
 ## 性能对比
 
