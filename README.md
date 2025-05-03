@@ -2,7 +2,7 @@
 
 ## 简介
 
-本项目基于[Jittor](vscode-file://vscode-app/c:/Users/ASUS/AppData/Local/Programs/Microsoft VS Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html)框架实现了基于潜在扩散模型（Latent Diffusion Model, LDM）的手写数字生成任务。通过对MNIST数据集的训练，模型能够生成高质量的手写数字图片。项目同时与PyTorch版本进行了对齐实验，验证了Jittor版本的正确性和生成效果。
+本项目基于Jittor框架实现了基于潜在扩散模型（Latent Diffusion Model, LDM）的手写数字生成任务。通过对MNIST数据集的训练，模型能够生成高质量的手写数字图片。项目同时与PyTorch版本进行了对齐实验，验证了Jittor版本的正确性和生成效果。
 
 ## 环境配置
 
@@ -74,23 +74,23 @@ python ./script/eval_DDPM_MNIST.py
 
 **DDPM**：
 
-![DDPM_loss](.\results\loss_ddpm.png)
+![DDPM_loss](results\loss_ddpm.png)
 
 **DDPM-Conditonal**:
 
-![DDPM_cond_loss](.\results\loss_ddpm_cond.png)
+![DDPM_cond_loss](results\loss_ddpm_cond.png)
 
 **VAE**:
 
-![VAE_loss](.\results\loss_VAE.png)
+![VAE_loss](results\loss_VAE.png)
 
 **LDM**:
 
-![LDM_loss](.\results\loss_ldm.png)
+![LDM_loss](results\loss_ldm.png)
 
 **LDM-Conditional**:
 
-![LDM_cond_loss](.\results\loss_ldm_cond.png)
+![LDM_cond_loss](results\loss_ldm_cond.png)
 
 #### 生成结果对比
 
@@ -98,11 +98,11 @@ python ./script/eval_DDPM_MNIST.py
 
 + Jittor
 
-![ddpm_jittor](.\jittor_version\results\mnist_ddpm_1746265160.169301.png)
+![ddpm_jittor](jittor_version\results\mnist_ddpm_1746265160.169301.png)
 
 + PyTorch
 
-![ddpm_jittor](.\pytorch_version\results\mnist_ddpm_1746264647.3923814.png)
+![ddpm_jittor](pytorch_version\results\mnist_ddpm_1746264647.3923814.png)
 
 **DDPM-Conditional**：
 
