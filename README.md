@@ -74,11 +74,11 @@ python ./script/eval_DDPM_MNIST.py
 
 **DDPM**：
 
-![DDPM_loss](results\loss_ddpm.png)
+![DDPM_loss](results/loss_ddpm.png)
 
 **DDPM-Conditonal**:
 
-![DDPM_cond_loss](results\loss_ddpm_cond.png)
+![DDPM_cond_loss](results/loss_ddpm_cond.png)
 
 **VAE**:
 
