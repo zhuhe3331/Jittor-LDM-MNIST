@@ -82,7 +82,7 @@ python ./script/eval_DDPM_MNIST.py
 
 **VAE**:
 
-![VAE_loss](results\loss_VAE.png)
+![VAE_loss](results/loss_VAE.png)
 
 **LDM**:
 
